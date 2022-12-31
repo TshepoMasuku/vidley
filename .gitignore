@@ -1,8 +1,10 @@
-
 .DS_Store
 node_modules/
 build/
 logfile.log
 uncaughtExceptions.log
+.env
 .env.development
 .env.production
+.env.development.local
+.env.production.local

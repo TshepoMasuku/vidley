@@ -1,7 +1,11 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-axios.defaults.baseURL= process.env.REACT_APP_API_URL;
+axios.defaults.baseURL= 
+  // https://vidlii-api.herokuapp.com/api 
+  // || 
+  "http://localhost:3003/api"
+;
 
 axios.interceptors.response.use(null, error =>{
   const expectedError = 
