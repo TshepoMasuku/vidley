@@ -2,7 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 axios.defaults.baseURL= 
-  "https://vidly-node-api.vercel.app/"
+  "https://vidly-node-api.vercel.app/api"
   || 
   "http://localhost:3003/api"
 ;
