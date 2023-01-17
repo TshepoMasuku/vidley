@@ -2,9 +2,9 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 axios.defaults.baseURL= 
-  "https://vidly-node-api.vercel.app/api"
-  || 
-  "http://localhost:3003/api"
+  "https://real-pink-walkingstick-kilt.cyclic.app/api"
+  // "https://vidly-node-api.vercel.app/api"
+  // "http://localhost:3003/api"
 ;
 
 axios.interceptors.response.use(null, error =>{
