@@ -201,7 +201,7 @@ function MovieForm() {
       {/* <Form onSubmit={ event => (handleSubmit(event) )}> */}
       <Form onSubmit={handleSubmit}>
         <Row className="mb-3">
-          <Col>
+          <Col xs={12} sm={6}>
             <Form.Group>
               <Form.Label>Title</Form.Label>
               <Form.Control
@@ -215,7 +215,7 @@ function MovieForm() {
               )}
             </Form.Group>
           </Col>
-          <Col>
+          <Col xs={12} sm={6}>
             <Form.Group>
               <Form.Label>Genre</Form.Label>
               <select
@@ -243,7 +243,7 @@ function MovieForm() {
           </Col>
         </Row>
         <Row className="mb-3">
-          <Col>
+          <Col xs={12} sm={6}>
             <Form.Group>
               <Form.Label>Number In Stock</Form.Label>
               <Form.Control
@@ -259,7 +259,7 @@ function MovieForm() {
               )}
             </Form.Group>
           </Col>
-          <Col>
+          <Col xs={12} sm={6}>
             <Form.Group>
               <Form.Label>Daily Rental Rate</Form.Label>
               <Form.Control
@@ -283,7 +283,7 @@ function MovieForm() {
             size="lg"
             disabled={validateForm()}
             as={Col}
-            className="mx-3"
+            className="m-2"
             onClick={() => {
               saveChanges();
             }}
@@ -295,7 +295,7 @@ function MovieForm() {
             size="lg"
             active
             as={Col}
-            className="mx-3"
+            className="m-2"
             onClick={() => {
               cancelChanges();
             }}

@@ -57,7 +57,7 @@ class Movies extends Component {
       const movies2show = movies.filter((movii) => movii._id !== movie._id);
       this.setState({ movies: movies2show });
     } catch (error) {
-      // damn code block not rendered(not working).
+      // code block not rendered(not working).
       toast.error(error.response.data);
       this.setState({ movies: originalMovies });
     }
@@ -133,24 +133,17 @@ class Movies extends Component {
     return (
       <div className="container">
         <Row>
-          <Col xs={4} sm={4} md={2} lg={3}>
+          <Col 
+            className="mb-2 mx-sortgenres"
+            xs={12} sm={4} md={3} lg={2}
+          >
             <SortGenre
               genreItems={this.state.genres}
               onGenreClick={this.handleGenreSelect}
               selectedGenre={this.state.selectedGenre}
             />
           </Col>
-          <Col xs={8} sm={8} md={10} lg={9}>
-            {user?.isAdmin && 
-              <Button size="lg" className="mb-2">
-                <Link
-                  to="/movies/new"
-                  style={{ textDecoration: "none", color: "white" }}
-                >
-                  New Movie
-                </Link>
-              </Button>
-            }
+          <Col xs={12} sm={8} md={9} lg={10}>
             <h4 className="mb-3 text-start">
               Showing {searchText === "" ? totalCount : totalNum} movies from the
               database.
@@ -165,6 +158,16 @@ class Movies extends Component {
                 }}
               />
             </Form>
+            {user?.isAdmin && 
+              <Button size="lg" className="my-1">
+                <Link
+                  to="/movies/new"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Add a Movie
+                </Link>
+              </Button>
+            }
             <MovieTable
               movies={searchText === "" ? movies : searched}
               sortColumn={sortColumn}
@@ -176,12 +179,7 @@ class Movies extends Component {
           </Col>
         </Row>
         <Row>
-          <Col
-            xs={{ offset: 5 }}
-            sm={{ offset: 5 }}
-            md={{ offset: 5 }}
-            lg={{ offset: 5 }}
-          >
+          <Col className="mx-paginations">
             <Paginations
               itemsCount={searchText === "" ? totalCount : totalNum}
               pageSize={pageSize}

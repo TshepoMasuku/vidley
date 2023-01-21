@@ -185,7 +185,7 @@ class RegisterForm extends Component {
           </Form.Group>
 
           <Row>
-            <Col>
+            <Col xs={12} sm={6}>
               <Form.Group className="mb-3" controlId="formBasicPassword1">
                 <Form.Label>Create Password</Form.Label>
                 <Form.Control
@@ -199,7 +199,7 @@ class RegisterForm extends Component {
                 )}
               </Form.Group>
             </Col>
-            <Col>
+            <Col xs={12} sm={6}>
               <Form.Group className="mb-3" controlId="formBasicPassword2">
                 <Form.Label>Confirm Password</Form.Label>
                 <Form.Control
@@ -227,6 +227,7 @@ class RegisterForm extends Component {
           </Row>
 
           <Button
+            className="my-3"
             type="submit"
             variant="primary"
             disabled={this.validateForm()}

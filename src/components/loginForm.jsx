@@ -142,6 +142,7 @@ class LoginForm extends Component {
           </Form.Group>
 
           <Button
+            className="my-3"
             type="submit"
             variant="primary"
             disabled={this.validateForm()}

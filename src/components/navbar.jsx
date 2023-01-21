@@ -11,7 +11,7 @@ const Navbarr = ({ user }) => {
       expand="sm"
       bg="light"
       variant="light"
-      className="mb-3"
+      className="mb-3 w-100"
     >
       <Container>
         <Navbar.Brand>

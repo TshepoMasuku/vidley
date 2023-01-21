@@ -1,10 +1,27 @@
-body {
+*, body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .clickable {
   cursor: pointer;
+}
+
+.mx-sortgenres{
+  margin-inline: 0px;
+}
+.mx-paginations{
+  margin-inline: 50%;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .mx-sortgenres{
+    margin-inline: 30%;
+  }
+  .mx-paginations{
+    margin-inline: 35%;
+  }
 }

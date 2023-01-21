@@ -13,7 +13,6 @@ import RegisterForm from './components/registerForm';
 import LoginForm from './components/loginForm';
 import LogOut from './components/logOut';
 import 'react-toastify/dist/ReactToastify.css';
-import './App.css';
 
 class App extends Component {
   state = {};

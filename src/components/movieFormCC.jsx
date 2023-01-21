@@ -174,7 +174,7 @@ class MovieForm extends Component {
         {/* NOT INVOKED */}
         <Form onSubmit={this.handleSubmit}>
           <Row className="mb-3">
-            <Col>
+            <Col xs={12} sm={6}>
               <Form.Group>
                 <Form.Label>Title</Form.Label>
                 <Form.Control
@@ -186,7 +186,7 @@ class MovieForm extends Component {
                 )}
               </Form.Group>
             </Col>
-            <Col>
+            <Col xs={12} sm={6}>
               <Form.Group>
                 <Form.Label>Genre</Form.Label>
                 <select
@@ -210,7 +210,7 @@ class MovieForm extends Component {
             </Col>
           </Row>
           <Row className="mb-3">
-            <Col>
+            <Col xs={12} sm={6}>
               <Form.Group>
                 <Form.Label>Number In Stock</Form.Label>
                 <Form.Control
@@ -224,7 +224,7 @@ class MovieForm extends Component {
                 )}
               </Form.Group>
             </Col>
-            <Col>
+            <Col xs={12} sm={6}>
               <Form.Group>
                 <Form.Label>Daily Rental Rate</Form.Label>
                 <Form.Control
@@ -245,7 +245,7 @@ class MovieForm extends Component {
               size="lg"
               disabled={this.validateForm()}
               as={Col}
-              className="mx-3"
+              className="m-2"
               onClick={() => {
                 this.saveMethod();
               }}
@@ -258,7 +258,7 @@ class MovieForm extends Component {
               size="lg"
               active
               as={Col}
-              className="mx-3"
+              className="m-2"
               onClick={() => {
                 this.setState({ btnClicked: true });
               }}
