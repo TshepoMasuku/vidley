@@ -19,7 +19,7 @@
 
 ## Introduction
 
-Vidly is a small fictional movie web application built throughout the React course created by Mosh Hamedani aka CodeWithMosh. This project was created to enhance React skills, including pagination, filtering, sorting, searching, and React routing. Including some full-stack development like CRUD operations, authentication, validation, and database management.
+Vidly is a small fictional movie web application built throughout the React course created by Mosh Hamedani aka Code with Mosh. This project was created to enhance React skills, including pagination, filtering, sorting, searching, and React routing. Including some full-stack development like CRUD operations, authentication, validation, and database management.
 
 ## What I have learned
 
