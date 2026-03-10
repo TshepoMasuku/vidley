@@ -5,6 +5,7 @@
 - [vidley](#vidley)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+  - [What I Have Learned](#what-i-have-learned)
   - [Features](#features)
   - [Screenshoots](#screenshoots)
     - [Home Screen](#home-screen)
