@@ -43,11 +43,11 @@ Development Tools: Utilizes Axios for API calls and Joi for validation.
 
 ### Home Screen
 
-![Home Screen](./public/assets/vidley_home_image.PNG)
+![Home Screen](./public/assets/vidley_home_screen_image.PNG)
 
 ### Home Screen: For Registered Users
 
-![Home Screen: For Registered Users](./public/assets/vidley_home_screen_registered_users.PNG)
+![Home Screen: For Registered Users](./public/assets/vidley_home_screen_registered_users_image.PNG)
 
 ### Add New Movie Screen
 
