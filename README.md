@@ -1,10 +1,81 @@
-# Getting Started with Create React App
+# [Vidley](https://vidley.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [vidley](#vidley)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Screenshoots](#screenshoots)
+    - [Home Screen](#home-screen)
+    - [Home Screen: For Registered Users](#home-screen-for-registered-users)
+    - [Add New Movie Screen](#add-new-movie-screen)
+    - [Edit Movie Screen](#edit-movie-screen)
+    - [Customers Screen](#customers-screen)
+    - [Rentals Screen](#rentals-screen)
+    - [Signin Screen](#signin-screen)
+    - [Signup Screen](#signup-screen)
+  - [Run App On Local Machine Using Available Scripts](#run-app-on-local-machine-using-available-scripts)
 
-In the project directory, you can run:
+## Introduction
+
+Vidly is a small fictional movie web application built throughout the React course created by Mosh Hamedani aka CodeWithMosh. This project was created to enhance React skills, including pagination, filtering, sorting, searching, and React routing. Including some full-stack development like CRUD operations, authentication, validation, and database management.
+
+## What I have learned
+
+CRUD Operations: Managing customer, movie, and rental data.
+Frontend Technologies: Built using React with pagination, filtering, sorting, routing, and form validation.
+Authentication & Authorization: Secure user access, including login and registration.
+Development Tools: Utilizes Axios for API calls and Joi for validation.
+
+## Features
+
+- Home screen for non-signedin users
+- Home screen for registered users
+- Add a new movie in the platform
+- Edit an existing movie in the platform
+- Customers functionality
+- Rentals functionality
+- Signin functionality
+- Signup functionality
+
+## Screenshoots
+
+### Home Screen
+
+![Home Screen](./public/assets/vidley_home_image.PNG)
+
+### Home Screen: For Registered Users
+
+![Home Screen: For Registered Users](./public/assets/vidley_home_screen_registered_users.PNG)
+
+### Add New Movie Screen
+
+![Add New Movie Screen](./public/assets/vidley_add_new_movie_image.PNG)
+
+### Edit Movie Screen
+
+![Edit Movie Screen](./public/assets/vidley_edit_movie_image.PNG)
+
+### Customers Screen
+
+![Customers Screen](./public/assets/vidley_customers_image.PNG)
+
+### Rentals Screen
+
+![Rentals Screen](./public/assets/vidley_rentals_image.PNG)
+
+### Signin Screen
+
+![Signin Screen](./public/assets/vidley_signin_image.PNG)
+
+### Signup Screen
+
+![Signup Screen](./public/assets/vidley_signup_image.PNG)
+
+## Run App On Local Machine Using Available Scripts
+
+In the project directory from package.json, you can run:
 
 ### `npm start`
 
@@ -13,11 +84,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -28,43 +94,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
