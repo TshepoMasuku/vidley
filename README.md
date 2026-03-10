@@ -23,10 +23,10 @@ Vidly is a small fictional movie web application built throughout the React cour
 
 ## What I have learned
 
-CRUD Operations: Managing customer, movie, and rental data.
-Frontend Technologies: Built using React with pagination, filtering, sorting, routing, and form validation.
-Authentication & Authorization: Secure user access, including login and registration.
-Development Tools: Utilizes Axios for API calls and Joi for validation.
+- CRUD Operations: Managing customer, movie, and rental data.
+- Frontend Technologies: Built using React with pagination, filtering, sorting, routing, and form validation.
+- Authentication & Authorization: Secure user access, including login and registration.
+- Development Tools: Utilizes Axios for API calls and Joi for validation.
 
 ## Features
 
