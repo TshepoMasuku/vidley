@@ -8,3 +8,7 @@ uncaughtExceptions.log
 .env.production
 .env.development.local
 .env.production.local
+.vercel
+.env*
+.vscode/
+.idea/
